@@ -1,9 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body class="background">
+    <!-- <div class="parent">
+      <h1>hello</h1>
+    </div>
+    <div class="parent1">
+      <h1>hello</h1>
+      <h1>hello</h1>
+    </div> -->
+
+    <header>
+      <div class="header">
+        <div class="innerheader">
+          <h2 style="color: white; margin-left: 40px">Linux journey</h2>
+        </div>
+      </div>
+    </header>
+    <div class="intro">
+      <div class="innerintro">
+        <img src="src/img/image.png" alt="" />
+
+        <h1 id="h1big">Learn the ways of Linux-fu, for free.</h1>
+      </div>
+    </div>
+    <div class="middle">
+      <p class="s1">Get updates about new courses and lessons!</p>
+      <span
+        ><input
+          style="text-align: left"
+          class="sizing"
+          type="email"
+          placeholder="Email Address"
+        />
+        <button class="btn">Subscribe</button></span
+      >
+    </div>
+    <div>
+      <h1
+        style="
+          text-align: center;
+          font-family: Helvetica Neue;
+          font-size: 30px;
+          font-weight: 100;
+          color: #999999;
+        "
+      >
+        Grasshopper
+      </h1>
+    </div>
+    <div class="gridParent">
+      <div class="card">
+        <div><img class="cardimg" src="src/img/gettingstart.png" alt="" /></div>
+        <div>
+          <h3>Getting start</h3>
+          <p>
+            What is Linux? Get started with choosing a distribution and
+            installation.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div><img class="cardimg" src="src/img/commandline.png" alt="" /></div>
+        <div>
+          <h3>Command Line</h3>
+          <p>
+            Learn the fundamentals of the command line, navigating files,
+            directories and more.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div><img class="cardimg" src="src/img/textfu.png" alt="" /></div>
+        <div>
+          <h3>Text-Fu</h3>
+          <p>Learn basic text manipulation and navigation.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <img class="cardimg" src="src/img/text-fu-advanced.png" alt="" />
+        </div>
+        <div>
+          <h3>Advanced Text-Fu</h3>
+          <p>Navigate text like a Linux spider monkey with vim and emacs.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <img class="cardimg" src="src/img/user-management.png" alt="" />
+        </div>
+        <div>
+          <h3>User Management</h3>
+          <p>Learn about user roles and management.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div><img class="cardimg" src="src/img/access.png" alt="" /></div>
+        <div>
+          <h3>Permissions</h3>
+          <p>Learn about permission levels and modifying permissions.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div><img class="cardimg" src="src/img/processes.png" alt="" /></div>
+        <div>
+          <h3>Processes</h3>
+          <p>Learn about the running processes on the system.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <img class="cardimg" src="src/img/package-management.png" alt="" />
+        </div>
+        <div>
+          <h3>Packages</h3>
+          <p>
+            Learn all about the dpkg, apt-get, rpm and yum package management
+            tools.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h1
+        style="
+          text-align: center;
+          font-family: Helvetica Neue;
+          font-size: 30px;
+          font-weight: 100;
+          margin-top: 30px;
+          color: #999999;
+        "
+      >
+        Journeyman
+      </h1>
+    </div>
+    <div class="gridParent">
+      <div class="card">
+        <div><img class="cardimg" src="src/img/devices.png" alt="" /></div>
+        <div>
+          <h3>Devices</h3>
+          <p>
+            Learn about Linux devices and how they interact with the kernel and
+            user space.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div><img class="cardimg" src="src/img/filesystem.png" alt="" /></div>
+        <div>
+          <h3>The Filesystem</h3>
+          <p>
+            Learn about the Linux filesystem, the different types of
+            filesystems, partitioning and more.
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div><img class="cardimg" src="src/img/booting.png" alt="" /></div>
+        <div>
+          <h3>Boot the System</h3>
+          <p>Learn about the stages of the Linux boot process.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div><img class="cardimg" src="src/img/kerne.png" alt="" /></div>
+        <div>
+          <h3>Kernel</h3>
+          <p>
+            The most important part of the Linux system, learn about how it
+            works and how to configure it.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div><img class="cardimg" src="src/img/init.png" alt="" /></div>
+        <div>
+          <h3>Init</h3>
+          <p>
+            Learn about the different init systems, SysV, Upstart and systemd.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <img class="cardimg" src="src/img/process-utilization.png" alt="" />
+        </div>
+        <div>
+          <h3>Process Utilization</h3>
+          <p>
+            Learn resource monitoring with top, load averages, iostat and more!
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div><img class="cardimg" src="src/img/logging.png" alt="" /></div>
+        <div>
+          <h3>Logging</h3>
+          <p>Learn about system logs and the /var/log directory.</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h1
+        style="
+          text-align: center;
+          font-family: Helvetica Neue;
+          font-size: 30px;
+          font-weight: 100;
+          margin-top: 30px;
+          color: #999999;
+        "
+      >
+        Networking Nomad
+      </h1>
+    </div>
+    <div class="gridParent">
+      <div class="card">
+        <div>
+          <img class="cardimg" src="src/img/network-sharing.png" alt="" />
+        </div>
+        <div>
+          <h3>Network Sharing</h3>
+          <p>Learn about network sharing with rsync, scp, nfs and more.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div>
+          <img class="cardimg" src="src/img/network-fundamentals.png" alt="" />
+        </div>
+        <div>
+          <h3>Network Basics</h3>
+          <p>Learn about networking basics and the TCP/IP model.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div><img class="cardimg" src="src/img/subnetting.png" alt="" /></div>
+        <div>
+          <h3>Subnetting</h3>
+          <p>Learn about subnets and how to do subnet arithmetic!</p>
+        </div>
+      </div>
+      <div class="card">
+        <div><img class="cardimg" src="src/img/routing.png" alt="" /></div>
+        <div>
+          <h3>Routing</h3>
+          <p>Learn how packets are routed across networks!</p>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <img class="cardimg" src="src/img/network-configuration.png" alt="" />
+        </div>
+        <div>
+          <h3>Network Config</h3>
+          <p>Learn about network configuration using Linux tools!</p>
+        </div>
+      </div>
+      <div class="card">
+        <div>
+          <img
+            class="cardimg"
+            src="src/img/network-troubleshooting.png"
+            alt=""
+          />
+        </div>
+        <div>
+          <h3>Troubleshooting</h3>
+          <p>
+            Learn about common networking tools to help you diagnose and
+            troubleshoot issues!
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div><img class="cardimg" src="src/img/dns.png" alt="" /></div>
+        <div>
+          <h3>DNS</h3>
+          <p>Everything and more that you wanted to know about DNS.</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h1
+        style="
+          text-align: center;
+          font-family: Helvetica Neue;
+          font-size: 30px;
+          font-weight: 100;
+          margin-top: 30px;
+          color: #999999;
+        "
+      >
+        Recommended Resources
+      </h1>
+      <div class="gridParent">
+        <div class="card">
+          <div>
+            <a
+              href="https://www.amazon.com/gp/product/1593275676/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1593275676&linkCode=as2&tag=linuxjourne0c-20&linkId=a8c48da327d15530a7214f453d5a55da"
+              target="_blank"
+              class="resourcep"
+              ><img class="resourcesimg" src="src/img/1st.jpg" alt="" />
+              <b><p>How Linux Works: What Every Superuser Should Know</p></b></a
+            >
+          </div>
+          <div>
+            <p>One of my most highly recommended books!</p>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <a
+              href="https://www.amazon.com/gp/product/1593275676/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1593275676&linkCode=as2&tag=linuxjourne0c-20&linkId=a8c48da327d15530a7214f453d5a55da"
+              target="_blank"
+              class="resourcep"
+              ><img class="resourcesimg" src="src/img/2nd.jpg" alt="" />
+              <b
+                ><p>
+                  UNIX and Linux System Administration Handbook, 4th Edition
+                </p></b
+              ></a
+            >
+          </div>
+          <div>
+            <p>Extremely comprehensive book for every SysAdmin.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <a
+              href="https://www.amazon.com/gp/product/1593275676/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1593275676&linkCode=as2&tag=linuxjourne0c-20&linkId=a8c48da327d15530a7214f453d5a55da"
+              target="_blank"
+              class="resourcep"
+              ><img class="resourcesimg" src="src/img/3rd.jpg" alt="" />
+              <b><p>Linux Command Line and Shell Scripting Bible</p></b></a
+            >
+          </div>
+          <div>
+            <p>Great comprehensive guide to shell scripting.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div>
+            <a
+              href="https://www.amazon.com/gp/product/1593275676/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1593275676&linkCode=as2&tag=linuxjourne0c-20&linkId=a8c48da327d15530a7214f453d5a55da"
+              target="_blank"
+              class="resourcep"
+              ><img class="resourcesimg" src="src/img/4th.jpg" alt="" />
+              <b
+                ><p>
+                  The Linux Programming Interface: A Linux and UNIX System
+                  Programming Handbook
+                </p></b
+              ></a
+            >
+          </div>
+          <div>
+            <p>For serious Linux-users, great start into kernel programming.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer style="background-color: #2c3e50">
+      <div class="footerdiv">
+        <div class="footer-item">
+          <h5>Subscribe</h5>
+          <p class="footerp">Get updates about new courses and lessons!</p>
+          <a class="footer-links" href="/subscribe">Subscribe</a>
+        </div>
+        <div class="footer-item">
+          <h5>About Us</h5>
+          <p class="footerp">
+            The knowledge gained here today was powered by the open-source
+            community.
+          </p>
+          <p>
+            <a
+              class="footer-links"
+              href="https://github.com/cindyq/linuxjourney"
+              >Contribute and Collaborate</a
+            >
+          </p>
+        </div>
+        <div class="footer-item">
+          <h5>Contact Us</h5>
+          <p class="footerp">
+            See a bug? Any complaints? Just want to send a note?
+          </p>
+          <a
+            class="footer-links"
+            href="/cdn-cgi/l/email-protection#4e2d21203a2f2d3a0e2227203b3624213b3c202b37602d2123"
+            >Let us know</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
